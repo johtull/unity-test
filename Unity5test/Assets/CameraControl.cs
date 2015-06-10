@@ -32,13 +32,13 @@ public class CameraControl : MonoBehaviour {
 		if(gamemode == 0)
 		{
 			if(Input.GetKey("up"))
-				phi +=1f;
-			if(Input.GetKey("down"))
 				phi -=1f;
+			if(Input.GetKey("down"))
+				phi +=1f;
 			if(Input.GetKey("right"))
-				theta +=1f;
-			if(Input.GetKey("left"))
 				theta -=1f;
+			if(Input.GetKey("left"))
+				theta +=1f;
 			
 		}
 
