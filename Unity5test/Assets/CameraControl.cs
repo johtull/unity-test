@@ -12,7 +12,7 @@ public class CameraControl : MonoBehaviour {
 	public int gamemode = 0;
 	// Use this for initialization
 	void Start () {
-	
+		 //di = 20; //distance
 	}
 	
 	// Update is called once per frame
